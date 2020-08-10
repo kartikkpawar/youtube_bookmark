@@ -1,0 +1,32 @@
+.card {
+  width: 250px;
+  margin-right: 10px;
+  height: 350px;
+  overflow: hidden;
+  border: 1px solid black;
+  box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  margin-bottom: 10px;
+}
+
+.card > img {
+  padding: 5px;
+}
+.cButtons {
+  display: flex;
+  justify-content: center;
+}
+.crBtn {
+  margin-top: 5px;
+  flex: 0.5;
+  /* background-color: #45ce30    ; */
+}
+.deBtn {
+  margin-top: 5px;
+  margin-left: 5px;
+  flex: 0.5;
+}
+
+.note {
+  height: 95px;
+  overflow: hidden;
+}

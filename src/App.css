@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+.body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mAddBtn {
+  margin-top: 5px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.modalBody {
+  display: flex;
+  flex-direction: column;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.inputUrl,
+.inputTitle,
+.inputNote {
+  margin-top: 10px;
+}
+.inputNote {
+  height: 130px;
+}
+.inputUrl,
+.inputTitle {
+  height: 40px;
+}
+.formcontrol {
+  width: 100%;
+}
+.cHolder {
+  display: flex;
+}
+.addButton {
+  width: 180px;
+  margin-top: 10px;
+  background-color: #ff1919 !important;
+  box-shadow: 2px 3px 5px -2px rgba(0, 0, 0, 0.68);
+}
+.errInt {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.title {
+  color: grey;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.txtadd {
+  color: red;
+  font-weight: 700;
+}
+@media only screen and (max-width: 600px) {
+  .cHolder {
+    flex-direction: column;
   }
 }
